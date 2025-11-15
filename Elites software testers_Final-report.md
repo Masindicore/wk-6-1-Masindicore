@@ -3,7 +3,7 @@
 **Team**: Elites software testers
 **Submission Date**: November 18, 2025
 
-markdown
+
 # Final Test Report - Book Store Application
 
 
@@ -147,4 +147,3 @@ Low Risk:     5 issues (Minor UX/performance)
 
 The Book Store application demonstrates excellent stability and functionality with 82% test pass rate and 100% requirements coverage. The two actual defects identified have been resolved, while seven intentional defects remain for training purposes.
 
-The application meets all critical quality benchmarks and is recommended for production release. The intentional defects provide valuable learning opportunities while posing minimal risk to production operations.
