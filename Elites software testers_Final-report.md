@@ -1,6 +1,7 @@
 ## 📊 Final Report (`tests/final-report.md`)
 
 **Team**: Elites software testers
+
 **Submission Date**: November 18, 2025
 
 
@@ -146,4 +147,5 @@ Low Risk:     5 issues (Minor UX/performance)
 ## 🏁 Conclusion
 
 The Book Store application demonstrates excellent stability and functionality with 82% test pass rate and 100% requirements coverage. The two actual defects identified have been resolved, while seven intentional defects remain for training purposes.
+
 
