@@ -1,16 +1,16 @@
-const ENV_CURRENCY = process.env.REACT_APP_CURRENCY;
+// Supported currencies for Paystack
+export const SUPPORTED_CURRENCIES = ['NGN', 'GHS', 'USD', 'ZAR', 'KES'];
 
-export const SUPPORTED_CURRENCIES = ['NGN', 'GHS', 'USD', 'ZAR'];
+// App currency - defaults to ZAR if not specified
+export const APP_CURRENCY = process.env.REACT_APP_CURRENCY || 'ZAR';
 
-export const APP_CURRENCY = SUPPORTED_CURRENCIES.includes(ENV_CURRENCY || '')
-  ? ENV_CURRENCY
-  : 'ZAR';
-
-const CURRENCY_LOCALE = {
-  NGN: 'en-NG',
-  GHS: 'en-GH',
-  USD: 'en-US',
-  ZAR: 'en-ZA',
+// Currency configurations
+export const CURRENCY_CONFIG = {
+  NGN: { symbol: '₦', name: 'Naira' },
+  GHS: { symbol: 'GH₵', name: 'Ghana Cedi' },
+  USD: { symbol: '$', name: 'US Dollar' },
+  ZAR: { symbol: 'R', name: 'South African Rand' },
+  KES: { symbol: 'KSh', name: 'Kenyan Shilling' }
 };
 
 export const formatCurrency = (amount) => {
@@ -28,5 +28,4 @@ export const formatCurrency = (amount) => {
     return `${APP_CURRENCY} ${amount.toFixed(2)}`;
   }
 };
-
 
