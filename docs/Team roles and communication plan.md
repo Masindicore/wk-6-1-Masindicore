@@ -31,12 +31,12 @@ Our team holds daily meetings at 8:00 PM to accommodate everyone's daytime sched
 Sample Meeting Agenda:
 
 8 PM Meeting Agenda
+1. Check-in 
+2. Progress updates
+3. Blockers?
+4. Tomorrow's tasks
+5. Decisions needed
 
-Check-in
-Progress updates
-Blockers?
-Tomorrow's tasks
-Decisions needed
 Decision-Making Process Documented
 
 We employ a consensus-based decision-making process where all team members must agree before implementing any changes. Our coordinator, Ronewa, maintains comprehensive decision records and documents meeting minutes in a shared Google Doc. This approach ensures full transparency, keeping every member informed and aware of the project status at all times.
