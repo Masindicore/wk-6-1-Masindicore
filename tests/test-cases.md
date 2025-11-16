@@ -1,8 +1,45 @@
-#  Book Store App — Test Cases & Checklists  
-**Team:** Elite Software Testers  
-**Phase:** Week 2 — Test Design & Early Execution  
-**Assigned To:** Christiana Muriuki (Test Executor)  
-**Date:** November 11, 2025  
+# 📋 Test Cases & Checklists (`tests/test-cases.md`)
+
+**Team**: Elite Software Testers  
+**Submission Date**: November 11, 2025  
+
+---
+
+## 🎯 Test Execution Dashboard
+
+| Metric | Value |
+|--------|-------|
+| Total Test Cases | 50 |
+| Passed | 41 |
+| Failed | 9 |
+| Intentional Defects Exposed | 7 |
+| Actual Defects Discovered | 2 |
+| Requirements Coverage | 100 % |
+
+## 🚨 Failure Breakdown
+- Currency mismatch (intentional)  
+- CSV export decimal formatting  
+- Notification badge not updating  
+- Stock limit not enforced  
+- Lazy loading images regression  
+- Sanitization failure (JavaScript: allowed)  
+- Email validation (actual defect)  
+- Unsupported currency handling (actual defect)
+
+---
+
+## 📚 1. Catalog & Search (8 Test Cases)
+
+| TC ID | FR Code | Title | Pre-conditions | Steps | Expected Result | Post-conditions | Priority | Status |
+|--------|---------|-------|----------------|-------|-----------------|-----------------|----------|--------|
+| TC-CAT-001 | FR-O01 | Search by title | App running on catalog | 1. Type “1984” in search bar 2. Press Enter | Book list filters to show only “1984” titles | Search query persisted in URL | P1 | ✅ Passed |
+| TC-CAT-002 | FR-O01 | Search by author | App running on catalog | 1. Type “Harper Lee”;2. Press Enter | Author matches displayed | harper lee's book id displayed | P1 | ✅ Passed |
+| TC-CAT-003 | FR-O01 | Search by description | App running on catalog | 1. Type “A powerful story of racial injustice”2. Press Enter | Keyword match displayed | The book with this description is shown 'A powerful story of racial injustice' | P1 | ✅ Passed |
+| TC-CAT-004 | FR-O01 | Clearing search restores catalog | Search results shown | 1. Delete query2. Press Enter | Full catalog restored | Full catalog restored | P1 | ✅ Passed |
+| TC-CAT-005 | FR-O01 | No-results message | App running on catalog | 1. Type “7789”2. Press Enter | “No books found” banner visible | No books found matching your search | P2 | ✅ Passed |
+| TC-CAT-006 | FR-O01 | Special character search | App running on catalog | 1. Type “@#$%”2. Press Enter | No crash, graceful empty list | No books found matching your search | P3 | ✅ Passed |
+| TC-CAT-007 | FR-X02 | Images lazy-load | App running on catalog | 1. Scroll down 1500 px | Images load only when in viewport | Lazy flag set | P2 | ❌ Failed (Intentional) |
+| TC-CAT-008 | FR-X01 | Search input A11y | App running on catalog | 1. Press Tab to search box2. Press ESC | Focus ring visible, ESC clears query | Focus returns to body | P2 | ✅ Passed |
 
 ---
 
@@ -105,9 +142,3 @@
 | Environment | Localhost via `npm start` |
 | Payment Mode | Paystack test mode |
 | Persistence | localStorage |
-
-
----
-
-
-
