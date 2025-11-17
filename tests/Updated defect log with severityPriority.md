@@ -30,7 +30,8 @@
 **Actual Result**: Alert displays "We could not start this transaction – enter a valid key"
 
 **Impact**: Complete revenue blockage - no payments can be processed  
-**Evidence**: `./evidence/payment/PAY-001_modal_v1.1.png`
+**Evidence**: <img width="1359" height="648" alt="We could not start this transactionScreenshot 2025-11-09 231049" src="https://github.com/user-attachments/assets/9c98403a-91ed-4574-8c57-f8cc965af1af" />
+
 
 ---
 
@@ -76,7 +77,8 @@
 **Actual Result**: Subtotal misleads users until final checkout page
 
 **Impact**: High cart abandonment due to unexpected cost increases  
-**Evidence**: `./evidence/Checkout_Wizard/CHECKOUT-004_order_summary.png`
+**Evidence**: <img width="1365" height="660" alt="Total checkoutScreenshot 2025-11-10 234505" src="https://github.com/user-attachments/assets/039439ef-1c8c-4f33-8281-ab0b1cc06fd1" />
+
 
 ---
 
@@ -100,7 +102,8 @@
 **Actual Result**: Form advances to Review step without validation
 
 **Impact**: Data quality issues, communication failures, order fulfillment problems  
-**Evidence**: `./evidence/Checkout_Wizard/CHECKOUT-002_form1_v1.1.png`
+**Evidence**: <img width="1330" height="689" alt="CHECKOUT-003_after_checkbox_v1 0" src="https://github.com/user-attachments/assets/a7e9e0dd-9852-4f19-b140-1580d5decd0f" />
+
 
 ---
 
@@ -147,7 +150,9 @@
 **Actual Result**: Inconsistent behavior across form steps
 
 **Impact**: User confusion, potential billing address errors  
-**Evidence**: `./evidence/Checkout_Wizard/CHECKOUT-003_before_checkbox_v1.0.png`
+**Evidence**: <img width="1330" height="689" alt="CHECKOUT-003_after_checkbox_v1 0" src="https://github.com/user-attachments/assets/baa05440-a97c-43da-85b5-caa6f04db0aa" />
+
+
 
 ---
 
@@ -162,7 +167,8 @@
 **Description**: Cart allows adding items beyond available stock limits.
 
 **Impact**: Potential over-selling beyond inventory capacity  
-**Evidence**: `./evidence/Cart_Quantities/CART-008_stock_limit_v1.1.png`
+**Evidence**: <img width="1349" height="671" alt="CART-008_stock_limit_v1 1" src="https://github.com/user-attachments/assets/308b156c-cc74-460d-b779-9c61bfd0485b" />
+
 
 ---
 
@@ -177,7 +183,8 @@
 **Description**: Image lazy loading functionality degraded in current release.
 
 **Impact**: Performance degradation in catalog browsing  
-**Evidence**: `./evidence/catalogue/CS-007_lazyload1_v1.1.png`
+**Evidence**:<img width="1343" height="685" alt="CS-007_lazyload1_v1 1" src="https://github.com/user-attachments/assets/24fb2cf6-4e92-4de5-94cc-2fc83e3fb79b" />
+
 
 ---
 
@@ -192,7 +199,8 @@
 **Description**: Input sanitization vulnerability in admin interface.
 
 **Impact**: Security vulnerability potential  
-**Evidence**: Admin test case failure logs
+**Evidence**: <img width="1303" height="767" alt="AS-001_route_protection_v1 0" src="https://github.com/user-attachments/assets/36775b03-bf95-4ab1-b39d-608ba8a129ee" />
+
 
 ---
 
@@ -300,3 +308,4 @@ The intentional defects provide excellent training opportunities for:
 | Christiana Muriuki | QA Lead | Reviewed | 2025-11-15 |
 | Ian Njeru | Test Engineer | Verified | 2025-11-15 |
 | Ronewa Masindi | Coordinator | Confirmed | 2025-11-15 |
+
