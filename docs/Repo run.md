@@ -19,7 +19,8 @@ npm start
 Verified successful setup
 The app compiled successfully
 It launched at http://localhost:3000/
-Screenshot evidence attached below
+![IMG_0343](https://github.com/user-attachments/assets/a526ff10-c1e5-48bb-9264-1f7906597c8e)
+
 
 
 All the team members were able to successfully run the project locally.
