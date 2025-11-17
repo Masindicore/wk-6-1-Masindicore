@@ -36,7 +36,7 @@
 ## 1. Smoke Test Suite (2 TCs)
 
 ### ST-001: Application Startup & Navigation  
-![ST-001](./evidence/smoke/ST-001_app_load.png)  
+<img width="1275" height="690" alt="ST-001_app_load" src="https://github.com/user-attachments/assets/03ad6dec-e6d0-4c61-9df5-6341cfb4d687" />
 > landing page Loads correctly; navigation functional; redirect to `/catalog`.  
 **Metadata:** Christiana Muriuki · ✅ Passed  
 **GitHub Issue:** [#ST-001](https://github.com/Iannjeru/Portfolio/issues/12#issue-3628682642)
@@ -260,4 +260,5 @@ The test execution for BookStore Web App v1.1.0 has been successfully completed 
 - **50 test cases** executed across 9 functional areas
 - **76% overall pass rate** with detailed evidence for each test
 - **12 defects** identified and logged in GitHub issue tracker
+
 - Comprehensive test artifacts and documentation
